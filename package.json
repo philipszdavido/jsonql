@@ -1,0 +1,20 @@
+{
+  "name": "jsonql",
+  "version": "1.0.0",
+  "description": "Write your qeury languague in JSON# jsonql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipszdavido/jsonql.git"
+  },
+  "keywords": [],
+  "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipszdavido/jsonql/issues"
+  },
+  "homepage": "https://github.com/philipszdavido/jsonql#readme"
+}

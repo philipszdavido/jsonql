@@ -1,16 +1,38 @@
 {
   "name": "jsonql",
   "version": "1.0.0",
-  "description": "Write your qeury languague in JSON# jsonql",
+  "description": "Write your query language in JSON: a small, dependency-free, GraphQL-style query engine",
   "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/*.test.js",
+    "example": "node examples/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/philipszdavido/jsonql.git"
   },
-  "keywords": [],
+  "keywords": [
+    "json",
+    "query",
+    "graphql",
+    "api"
+  ],
   "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
   "license": "ISC",
   "bugs": {

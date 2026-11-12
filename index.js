@@ -1,17 +1,3 @@
-const log = console.log.bind(console.log)
+"use strict";
 
-var q = {
-    query: {
-        args: [
-            {
-                first: 2
-            }
-        ]
-        products: {
-            name: String,
-            email: String
-        }
-    }
-}
-
-log(q)
+module.exports = require("./src");
